@@ -1,0 +1,7 @@
+let age = document.querySelector('input')
+let converter = document.querySelector('button')
+let answer = document.querySelector('#Answer')
+
+converter.addEventListener('click',()=>{
+    answer.innerText = ('your age in days: ' + (eval(`${age.value} *365`)))
+})
