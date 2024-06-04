@@ -19,3 +19,9 @@ body{
 b{
     color: white;
 }
+button{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+}
